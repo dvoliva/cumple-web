@@ -1,6 +1,6 @@
 function actualizarContador() {
     const ahora = new Date();
-    const fechaObjetivo = new Date('October 25, 2025 00:00:00');
+    const fechaObjetivo = new Date('October 25, 2026 00:00:00');
     const tiempoRestante = fechaObjetivo.getTime() - ahora.getTime();
 
     if (tiempoRestante <= 0) {
